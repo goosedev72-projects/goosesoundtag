@@ -1,0 +1,36 @@
+body {
+  background-color: #C6F4D6; /* светло-зелёный фон */
+  font-family: 'Open Sans', sans-serif; /* шрифт */
+  text-align: center; /* центрирование текста */
+}
+
+audio {
+  width: 50%; /* ширина аудио-плеера */
+  margin: 20px auto; /* отступы и центрирование аудио-плеера */
+}
+
+img {
+  width: 50%; /* ширина изображения */
+  margin: 20px auto; /* отступы и центрирование изображения */
+  border-radius: 10px; /* закругленные углы изображения */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* тень под изображением */
+}
+
+button {
+  background-color: #34C759; /* зелёный цвет кнопки */
+  color: #FFFFFF; /* белый цвет текста кнопки */
+  padding: 10px 20px; /* отступы кнопки */
+  border: none; /* нет границы кнопки */
+  border-radius: 10px; /* закругленные углы кнопки */
+  cursor: pointer; /* курсор мыши при наведении на кнопку */
+}
+
+button:hover {
+  background-color: #2ECC71; /* зелёный цвет кнопки при наведении */
+}
+
+p {
+  font-size: 18px; /* размер шрифта */
+  color: #333333; /* тёмно-серый цвет текста */
+  margin-bottom: 20px; /* отступ снизу текста */
+}
